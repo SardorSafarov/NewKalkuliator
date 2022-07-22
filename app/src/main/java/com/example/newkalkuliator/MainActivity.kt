@@ -7,14 +7,40 @@ import com.example.newkalkuliator.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var oldText: String
+    var firstNumber = 0
+    var secondNumber = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         nuberBtn()
         clearBtn()
+        mathOperations()
 
     }
+
+    private fun mathOperations() {
+        binding.apply {
+            add.setOnClickListener {
+                oldText+="+"
+                mainText.setText(oldText)
+            }
+            minus.setOnClickListener {
+                oldText+="-"
+            }
+            tobe.setOnClickListener {
+                oldText+="/"
+            }
+            increase.setOnClickListener {
+                oldText+="*"
+            }
+            percent.setOnClickListener {
+                oldText+="%"
+            }
+        }
+    }
+
+
     private fun clearBtn() {
         binding.apply {
             clearBtn.setOnClickListener {
@@ -56,11 +82,14 @@ class MainActivity : AppCompatActivity() {
             zeroNumber.setOnClickListener {
                 numberWrite("0")
             }
+            dot.setOnClickListener {
+                numberWrite(".")
+            }
         }
     }
     private fun numberWrite(number:String){
         oldText = binding.mainText.text.toString()
-        if (oldText=="0")
+        if (oldText=="0" && number!=".")
             oldText = number
         else
             oldText+=number
