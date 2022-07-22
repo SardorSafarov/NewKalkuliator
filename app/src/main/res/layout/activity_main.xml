@@ -15,6 +15,7 @@
         android:layout_weight="1">
 
         <TextView
+            android:id="@+id/main_text"
             style="@style/NuberCustomer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,18 +79,21 @@
                     android:layout_weight="1">
 
                     <TextView
+                        android:id="@+id/seven_number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="7" />
 
                     <TextView
+                        android:id="@+id/eight_number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="8" />
 
                     <TextView
+                        android:id="@+id/nine_number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -102,18 +106,21 @@
                     android:layout_weight="1">
 
                     <TextView
+                        android:id="@+id/four_number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="4" />
 
                     <TextView
+                        android:id="@+id/five_number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="5" />
 
                     <TextView
+                        android:id="@+id/six_nubmer"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -126,18 +133,21 @@
                     android:layout_weight="1">
 
                     <TextView
+                        android:id="@+id/first_nuber"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1" />
 
                     <TextView
+                        android:id="@+id/second_number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="2" />
 
                     <TextView
+                        android:id="@+id/three_number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -150,18 +160,21 @@
                     android:layout_marginBottom="@dimen/margen_padding_20dp">
 
                     <TextView
+                        android:id="@+id/zero_Number"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0" />
 
                     <TextView
+                        android:id="@+id/dot"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="." />
 
                     <TextView
+                        android:id="@+id/clear_btn"
                         style="@style/NuberCustomer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -193,6 +206,7 @@
                             android:gravity="center">
 
                             <TextView
+                                android:id="@+id/minus"
                                 style="@style/NuberCustomer"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -214,6 +228,7 @@
                             android:gravity="center">
 
                             <TextView
+                                android:id="@+id/tobe"
                                 style="@style/NuberCustomer"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -231,6 +246,7 @@
                     android:orientation="horizontal">
 
                     <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/add"
                         android:layout_width="50dp"
                         android:layout_height="120dp"
                         android:background="@drawable/bg_math_deeds"
@@ -257,6 +273,7 @@
                                 android:gravity="center">
 
                                 <TextView
+                                    android:id="@+id/increase"
                                     style="@style/NuberCustomer"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -279,6 +296,7 @@
                                 android:gravity="center">
 
                                 <TextView
+                                    android:id="@+id/percent"
                                     style="@style/NuberCustomer"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -291,6 +309,7 @@
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/equality"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_equels"
