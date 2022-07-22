@@ -19,5 +19,6 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_weight">1</item>
+        <item name="android:stateListAnimator">@null</item>
     </style>
 </resources>

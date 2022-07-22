@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/NewKalkuliator/app/src/main/res/drawable/bg_activity_main.xml" value="0.2245" />
+        <entry key="..\:/NewKalkuliator/app/src/main/res/drawable/bg_equels.xml" value="0.2245" />
+        <entry key="..\:/NewKalkuliator/app/src/main/res/drawable/bg_math_deeds.xml" value="0.2245" />
         <entry key="..\:/NewKalkuliator/app/src/main/res/layout/activity_main.xml" value="0.2671875" />
       </map>
     </option>
